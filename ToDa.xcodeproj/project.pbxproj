@@ -23,6 +23,12 @@
 		41A0387C186AB0CB00FC54BE /* ToDaAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A0387B186AB0CB00FC54BE /* ToDaAddTaskViewController.m */; };
 		41A0387F186AB10100FC54BE /* ToDaTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A0387E186AB10100FC54BE /* ToDaTaskListViewController.m */; };
 		41A03882186B835400FC54BE /* ToDaTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A03881186B835400FC54BE /* ToDaTask.m */; };
+		41BA40AA1870B50A005DB143 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA40A61870B50A005DB143 /* AudioToolbox.framework */; };
+		41BA40AB1870B50A005DB143 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA40A71870B50A005DB143 /* AVFoundation.framework */; };
+		41BA40AC1870B50A005DB143 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA40A81870B50A005DB143 /* CFNetwork.framework */; };
+		41BA40AD1870B50A005DB143 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BA40A91870B50A005DB143 /* Security.framework */; };
+		41F51D0B1880BD1C00CA75D5 /* ATT Speech SDK Developer Guide for iOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 41F51D071880BD1C00CA75D5 /* ATT Speech SDK Developer Guide for iOS.pdf */; };
+		41F51D0D1880BD1D00CA75D5 /* CHANGES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41F51D0A1880BD1C00CA75D5 /* CHANGES.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41A03838186A5B5000FC54BE /* ToDa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4170EA601884B262002A18D5 /* ToDa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4170EA611884B595002A18D5 /* ToDaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A0383B186A5B5000FC54BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41A0383D186A5B5000FC54BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		41A0383F186A5B5000FC54BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -47,7 +54,6 @@
 		41A0384A186A5B5000FC54BE /* ToDaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDaAppDelegate.h; sourceTree = "<group>"; };
 		41A0384B186A5B5000FC54BE /* ToDaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDaAppDelegate.m; sourceTree = "<group>"; };
 		41A0384D186A5B5000FC54BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		41A03853186A5B5000FC54BE /* ToDaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A03854186A5B5000FC54BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		41A0385C186A5B5000FC54BE /* ToDaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDaTests-Info.plist"; sourceTree = "<group>"; };
 		41A0385E186A5B5000FC54BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -59,6 +65,14 @@
 		41A0387E186AB10100FC54BE /* ToDaTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDaTaskListViewController.m; sourceTree = "<group>"; };
 		41A03880186B835400FC54BE /* ToDaTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDaTask.h; sourceTree = "<group>"; };
 		41A03881186B835400FC54BE /* ToDaTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDaTask.m; sourceTree = "<group>"; };
+		41BA40A61870B50A005DB143 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		41BA40A71870B50A005DB143 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		41BA40A81870B50A005DB143 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		41BA40A91870B50A005DB143 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		41F51D071880BD1C00CA75D5 /* ATT Speech SDK Developer Guide for iOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ATT Speech SDK Developer Guide for iOS.pdf"; sourceTree = "<group>"; };
+		41F51D081880BD1C00CA75D5 /* ATTSpeechKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ATTSpeechKit.a; sourceTree = "<group>"; };
+		41F51D091880BD1C00CA75D5 /* ATTSpeechKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTSpeechKit.h; sourceTree = "<group>"; };
+		41F51D0A1880BD1C00CA75D5 /* CHANGES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BA40AA1870B50A005DB143 /* AudioToolbox.framework in Frameworks */,
+				41BA40AB1870B50A005DB143 /* AVFoundation.framework in Frameworks */,
+				41BA40AC1870B50A005DB143 /* CFNetwork.framework in Frameworks */,
+				41BA40AD1870B50A005DB143 /* Security.framework in Frameworks */,
 				41A0383E186A5B5000FC54BE /* CoreGraphics.framework in Frameworks */,
 				41A03840186A5B5000FC54BE /* UIKit.framework in Frameworks */,
 				41A0383C186A5B5000FC54BE /* Foundation.framework in Frameworks */,
@@ -91,22 +109,19 @@
 				41A03841186A5B5000FC54BE /* ToDa */,
 				41A0385A186A5B5000FC54BE /* ToDaTests */,
 				41A0383A186A5B5000FC54BE /* Frameworks */,
-				41A03839186A5B5000FC54BE /* Products */,
+				41F51D061880BD1C00CA75D5 /* ATTSpeechKit-iOS-2.1.1 */,
+				4170EA601884B262002A18D5 /* ToDa.app */,
+				4170EA611884B595002A18D5 /* ToDaTests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		41A03839186A5B5000FC54BE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41A03838186A5B5000FC54BE /* ToDa.app */,
-				41A03853186A5B5000FC54BE /* ToDaTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		41A0383A186A5B5000FC54BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41BA40A61870B50A005DB143 /* AudioToolbox.framework */,
+				41BA40A71870B50A005DB143 /* AVFoundation.framework */,
+				41BA40A81870B50A005DB143 /* CFNetwork.framework */,
+				41BA40A91870B50A005DB143 /* Security.framework */,
 				41A0383B186A5B5000FC54BE /* Foundation.framework */,
 				41A0383D186A5B5000FC54BE /* CoreGraphics.framework */,
 				41A0383F186A5B5000FC54BE /* UIKit.framework */,
@@ -130,9 +145,9 @@
 		41A03842186A5B5000FC54BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41A03847186A5B5000FC54BE /* main.m */,
 				41A03843186A5B5000FC54BE /* ToDa-Info.plist */,
 				41A03844186A5B5000FC54BE /* InfoPlist.strings */,
-				41A03847186A5B5000FC54BE /* main.m */,
 				41A03849186A5B5000FC54BE /* ToDa-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -202,6 +217,18 @@
 			name = AppDelegate;
 			sourceTree = "<group>";
 		};
+		41F51D061880BD1C00CA75D5 /* ATTSpeechKit-iOS-2.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				41F51D071880BD1C00CA75D5 /* ATT Speech SDK Developer Guide for iOS.pdf */,
+				41F51D081880BD1C00CA75D5 /* ATTSpeechKit.a */,
+				41F51D091880BD1C00CA75D5 /* ATTSpeechKit.h */,
+				41F51D0A1880BD1C00CA75D5 /* CHANGES.txt */,
+			);
+			name = "ATTSpeechKit-iOS-2.1.1";
+			path = "ToDa/ATTSpeechKit-iOS-2.1.1";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,7 +246,7 @@
 			);
 			name = ToDa;
 			productName = ToDa;
-			productReference = 41A03838186A5B5000FC54BE /* ToDa.app */;
+			productReference = 4170EA601884B262002A18D5 /* ToDa.app */;
 			productType = "com.apple.product-type.application";
 		};
 		41A03852186A5B5000FC54BE /* ToDaTests */ = {
@@ -237,7 +264,7 @@
 			);
 			name = ToDaTests;
 			productName = ToDaTests;
-			productReference = 41A03853186A5B5000FC54BE /* ToDaTests.xctest */;
+			productReference = 4170EA611884B595002A18D5 /* ToDaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +290,7 @@
 				en,
 			);
 			mainGroup = 41A0382F186A5B5000FC54BE;
-			productRefGroup = 41A03839186A5B5000FC54BE /* Products */;
+			productRefGroup = 41A0382F186A5B5000FC54BE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -281,6 +308,8 @@
 				41A0386D186A5FF000FC54BE /* ToDa.storyboard in Resources */,
 				41A03846186A5B5000FC54BE /* InfoPlist.strings in Resources */,
 				41A0384E186A5B5000FC54BE /* Images.xcassets in Resources */,
+				41F51D0D1880BD1D00CA75D5 /* CHANGES.txt in Resources */,
+				41F51D0B1880BD1C00CA75D5 /* ATT Speech SDK Developer Guide for iOS.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
