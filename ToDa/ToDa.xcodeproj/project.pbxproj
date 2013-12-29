@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A0383C186A5B5000FC54BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A0383B186A5B5000FC54BE /* Foundation.framework */; };
+		41A0383E186A5B5000FC54BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A0383D186A5B5000FC54BE /* CoreGraphics.framework */; };
+		41A03840186A5B5000FC54BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A0383F186A5B5000FC54BE /* UIKit.framework */; };
+		41A03846186A5B5000FC54BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41A03844186A5B5000FC54BE /* InfoPlist.strings */; };
+		41A03848186A5B5000FC54BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A03847186A5B5000FC54BE /* main.m */; };
+		41A0384C186A5B5000FC54BE /* ToDaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A0384B186A5B5000FC54BE /* ToDaAppDelegate.m */; };
+		41A0384E186A5B5000FC54BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A0384D186A5B5000FC54BE /* Images.xcassets */; };
+		41A03855186A5B5000FC54BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A03854186A5B5000FC54BE /* XCTest.framework */; };
+		41A03856186A5B5000FC54BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A0383B186A5B5000FC54BE /* Foundation.framework */; };
+		41A03857186A5B5000FC54BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A0383F186A5B5000FC54BE /* UIKit.framework */; };
+		41A0385F186A5B5000FC54BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41A0385D186A5B5000FC54BE /* InfoPlist.strings */; };
+		41A03861186A5B5000FC54BE /* ToDaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A03860186A5B5000FC54BE /* ToDaTests.m */; };
+		41A0386D186A5FF000FC54BE /* ToDa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A0386C186A5FF000FC54BE /* ToDa.storyboard */; };
+		41A0387C186AB0CB00FC54BE /* ToDaAddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A0387B186AB0CB00FC54BE /* ToDaAddTaskViewController.m */; };
+		41A0387F186AB10100FC54BE /* ToDaTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A0387E186AB10100FC54BE /* ToDaTaskListViewController.m */; };
+		41A03882186B835400FC54BE /* ToDaTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A03881186B835400FC54BE /* ToDaTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A03858186A5B5000FC54BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A03830186A5B5000FC54BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A03837186A5B5000FC54BE;
+			remoteInfo = ToDa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41A03838186A5B5000FC54BE /* ToDa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A0383B186A5B5000FC54BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41A0383D186A5B5000FC54BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41A0383F186A5B5000FC54BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41A03843186A5B5000FC54BE /* ToDa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDa-Info.plist"; sourceTree = "<group>"; };
+		41A03845186A5B5000FC54BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41A03847186A5B5000FC54BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41A03849186A5B5000FC54BE /* ToDa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDa-Prefix.pch"; sourceTree = "<group>"; };
+		41A0384A186A5B5000FC54BE /* ToDaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDaAppDelegate.h; sourceTree = "<group>"; };
+		41A0384B186A5B5000FC54BE /* ToDaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDaAppDelegate.m; sourceTree = "<group>"; };
+		41A0384D186A5B5000FC54BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41A03853186A5B5000FC54BE /* ToDaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A03854186A5B5000FC54BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41A0385C186A5B5000FC54BE /* ToDaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDaTests-Info.plist"; sourceTree = "<group>"; };
+		41A0385E186A5B5000FC54BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41A03860186A5B5000FC54BE /* ToDaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDaTests.m; sourceTree = "<group>"; };
+		41A0386C186A5FF000FC54BE /* ToDa.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ToDa.storyboard; sourceTree = SOURCE_ROOT; };
+		41A0387A186AB0CB00FC54BE /* ToDaAddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDaAddTaskViewController.h; sourceTree = "<group>"; };
+		41A0387B186AB0CB00FC54BE /* ToDaAddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDaAddTaskViewController.m; sourceTree = "<group>"; };
+		41A0387D186AB10100FC54BE /* ToDaTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDaTaskListViewController.h; sourceTree = "<group>"; };
+		41A0387E186AB10100FC54BE /* ToDaTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDaTaskListViewController.m; sourceTree = "<group>"; };
+		41A03880186B835400FC54BE /* ToDaTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDaTask.h; sourceTree = "<group>"; };
+		41A03881186B835400FC54BE /* ToDaTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDaTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41A03835186A5B5000FC54BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A0383E186A5B5000FC54BE /* CoreGraphics.framework in Frameworks */,
+				41A03840186A5B5000FC54BE /* UIKit.framework in Frameworks */,
+				41A0383C186A5B5000FC54BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A03850186A5B5000FC54BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A03855186A5B5000FC54BE /* XCTest.framework in Frameworks */,
+				41A03857186A5B5000FC54BE /* UIKit.framework in Frameworks */,
+				41A03856186A5B5000FC54BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A0382F186A5B5000FC54BE = {
+			isa = PBXGroup;
+			children = (
+				41A03841186A5B5000FC54BE /* ToDa */,
+				41A0385A186A5B5000FC54BE /* ToDaTests */,
+				41A0383A186A5B5000FC54BE /* Frameworks */,
+				41A03839186A5B5000FC54BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41A03839186A5B5000FC54BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41A03838186A5B5000FC54BE /* ToDa.app */,
+				41A03853186A5B5000FC54BE /* ToDaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A0383A186A5B5000FC54BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A0383B186A5B5000FC54BE /* Foundation.framework */,
+				41A0383D186A5B5000FC54BE /* CoreGraphics.framework */,
+				41A0383F186A5B5000FC54BE /* UIKit.framework */,
+				41A03854186A5B5000FC54BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41A03841186A5B5000FC54BE /* ToDa */ = {
+			isa = PBXGroup;
+			children = (
+				41A0386C186A5FF000FC54BE /* ToDa.storyboard */,
+				41A03887186BC28600FC54BE /* AppDelegate */,
+				41A03886186BC25A00FC54BE /* Classes */,
+				41A0384D186A5B5000FC54BE /* Images.xcassets */,
+				41A03842186A5B5000FC54BE /* Supporting Files */,
+			);
+			path = ToDa;
+			sourceTree = "<group>";
+		};
+		41A03842186A5B5000FC54BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41A03843186A5B5000FC54BE /* ToDa-Info.plist */,
+				41A03844186A5B5000FC54BE /* InfoPlist.strings */,
+				41A03847186A5B5000FC54BE /* main.m */,
+				41A03849186A5B5000FC54BE /* ToDa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41A0385A186A5B5000FC54BE /* ToDaTests */ = {
+			isa = PBXGroup;
+			children = (
+				41A03860186A5B5000FC54BE /* ToDaTests.m */,
+				41A0385B186A5B5000FC54BE /* Supporting Files */,
+			);
+			path = ToDaTests;
+			sourceTree = "<group>";
+		};
+		41A0385B186A5B5000FC54BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41A0385C186A5B5000FC54BE /* ToDaTests-Info.plist */,
+				41A0385D186A5B5000FC54BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41A03883186BBDA200FC54BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41A03884186BBDC800FC54BE /* Tasks */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		41A03884186BBDC800FC54BE /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				41A0387A186AB0CB00FC54BE /* ToDaAddTaskViewController.h */,
+				41A0387B186AB0CB00FC54BE /* ToDaAddTaskViewController.m */,
+				41A0387D186AB10100FC54BE /* ToDaTaskListViewController.h */,
+				41A0387E186AB10100FC54BE /* ToDaTaskListViewController.m */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		41A03885186BBDF300FC54BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41A03880186B835400FC54BE /* ToDaTask.h */,
+				41A03881186B835400FC54BE /* ToDaTask.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		41A03886186BC25A00FC54BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				41A03885186BBDF300FC54BE /* Models */,
+				41A03883186BBDA200FC54BE /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		41A03887186BC28600FC54BE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				41A0384A186A5B5000FC54BE /* ToDaAppDelegate.h */,
+				41A0384B186A5B5000FC54BE /* ToDaAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41A03837186A5B5000FC54BE /* ToDa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A03864186A5B5000FC54BE /* Build configuration list for PBXNativeTarget "ToDa" */;
+			buildPhases = (
+				41A03834186A5B5000FC54BE /* Sources */,
+				41A03835186A5B5000FC54BE /* Frameworks */,
+				41A03836186A5B5000FC54BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDa;
+			productName = ToDa;
+			productReference = 41A03838186A5B5000FC54BE /* ToDa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41A03852186A5B5000FC54BE /* ToDaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A03867186A5B5000FC54BE /* Build configuration list for PBXNativeTarget "ToDaTests" */;
+			buildPhases = (
+				41A0384F186A5B5000FC54BE /* Sources */,
+				41A03850186A5B5000FC54BE /* Frameworks */,
+				41A03851186A5B5000FC54BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A03859186A5B5000FC54BE /* PBXTargetDependency */,
+			);
+			name = ToDaTests;
+			productName = ToDaTests;
+			productReference = 41A03853186A5B5000FC54BE /* ToDaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41A03830186A5B5000FC54BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ToDa;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = DigitalBlend;
+				TargetAttributes = {
+					41A03852186A5B5000FC54BE = {
+						TestTargetID = 41A03837186A5B5000FC54BE;
+					};
+				};
+			};
+			buildConfigurationList = 41A03833186A5B5000FC54BE /* Build configuration list for PBXProject "ToDa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41A0382F186A5B5000FC54BE;
+			productRefGroup = 41A03839186A5B5000FC54BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41A03837186A5B5000FC54BE /* ToDa */,
+				41A03852186A5B5000FC54BE /* ToDaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41A03836186A5B5000FC54BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A0386D186A5FF000FC54BE /* ToDa.storyboard in Resources */,
+				41A03846186A5B5000FC54BE /* InfoPlist.strings in Resources */,
+				41A0384E186A5B5000FC54BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A03851186A5B5000FC54BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A0385F186A5B5000FC54BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41A03834186A5B5000FC54BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A0384C186A5B5000FC54BE /* ToDaAppDelegate.m in Sources */,
+				41A03882186B835400FC54BE /* ToDaTask.m in Sources */,
+				41A0387F186AB10100FC54BE /* ToDaTaskListViewController.m in Sources */,
+				41A0387C186AB0CB00FC54BE /* ToDaAddTaskViewController.m in Sources */,
+				41A03848186A5B5000FC54BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A0384F186A5B5000FC54BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A03861186A5B5000FC54BE /* ToDaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A03859186A5B5000FC54BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A03837186A5B5000FC54BE /* ToDa */;
+			targetProxy = 41A03858186A5B5000FC54BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41A03844186A5B5000FC54BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A03845186A5B5000FC54BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41A0385D186A5B5000FC54BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A0385E186A5B5000FC54BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41A03862186A5B5000FC54BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41A03863186A5B5000FC54BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A03865186A5B5000FC54BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDa/ToDa-Prefix.pch";
+				INFOPLIST_FILE = "ToDa/ToDa-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dry/Workspace/Personal/ToDa/ToDa/ATTSpeechKit-iOS-2.1.1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41A03866186A5B5000FC54BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDa/ToDa-Prefix.pch";
+				INFOPLIST_FILE = "ToDa/ToDa-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dry/Workspace/Personal/ToDa/ToDa/ATTSpeechKit-iOS-2.1.1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41A03868186A5B5000FC54BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToDa.app/ToDa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDa/ToDa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ToDaTests/ToDaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41A03869186A5B5000FC54BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ToDa.app/ToDa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDa/ToDa-Prefix.pch";
+				INFOPLIST_FILE = "ToDaTests/ToDaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A03833186A5B5000FC54BE /* Build configuration list for PBXProject "ToDa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A03862186A5B5000FC54BE /* Debug */,
+				41A03863186A5B5000FC54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A03864186A5B5000FC54BE /* Build configuration list for PBXNativeTarget "ToDa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A03865186A5B5000FC54BE /* Debug */,
+				41A03866186A5B5000FC54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A03867186A5B5000FC54BE /* Build configuration list for PBXNativeTarget "ToDaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A03868186A5B5000FC54BE /* Debug */,
+				41A03869186A5B5000FC54BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41A03830186A5B5000FC54BE /* Project object */;
+}
